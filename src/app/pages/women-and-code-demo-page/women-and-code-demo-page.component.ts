@@ -1,3 +1,16 @@
+/**
+ * This example was presented at the Women and Code meetup in June 2025 (Vienna).
+ *
+ * The goal is to demonstrate how Angular components behave when using:
+ * - Primitive variable types vs. signals
+ * - Regular functions vs. computed signals based on both
+ *
+ * It also includes child components that explore different strategies
+ * for passing data from parent to child.
+ *
+ * The example is meant for experimentation and learning — not for production use.
+ */
+
 import {Component, computed, signal, WritableSignal} from '@angular/core';
 import {Fieldset} from "primeng/fieldset";
 import {Button} from "primeng/button";
