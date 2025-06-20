@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-import * as path from "node:path";
 import {HomePageComponent} from "./pages/home-page/home-page.component";
 import {WomenAndCodeDemoPageComponent} from "./pages/women-and-code-demo-page/women-and-code-demo-page.component";
 
