@@ -1,1 +1,83 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+
+:root {
+  --bright-blue: oklch(51.01% 0.274 263.83);
+  --electric-violet: oklch(53.18% 0.28 296.97);
+  --french-violet: oklch(47.66% 0.246 305.88);
+  --vivid-pink: oklch(69.02% 0.277 332.77);
+  --hot-red: oklch(61.42% 0.238 15.34);
+  --orange-red: oklch(63.32% 0.24 31.68);
+
+  --gray-900: oklch(19.37% 0.006 300.98);
+  --gray-700: oklch(36.98% 0.014 302.71);
+  --gray-400: oklch(70.9% 0.015 304.04);
+
+  --red-to-pink-to-purple-vertical-gradient: linear-gradient(
+                  180deg,
+                  var(--orange-red) 0%,
+                  var(--vivid-pink) 50%,
+                  var(--electric-violet) 100%
+  );
+
+  --red-to-pink-to-purple-horizontal-gradient: linear-gradient(
+                  90deg,
+                  var(--orange-red) 0%,
+                  var(--vivid-pink) 50%,
+                  var(--electric-violet) 100%
+  );
+}
+
+.error-message {
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background: var(--red-to-pink-to-purple-horizontal-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.p-datatable {
+  width: 60rem;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25rem;
+  height: 4rem;
+  background: var(--red-to-pink-to-purple-horizontal-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: var(--french-violet);
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+  font-size: 1.1rem;
+  word-wrap: break-word;
+}
+
+.gradient-text {
+  background: var(--red-to-pink-to-purple-horizontal-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.p-drawer {
+  width: 30rem;
+}
+
+.p-button .p-button-label {
+  font-size: 1.5rem;
+}
+
+.p-fieldset-legend-label{
+  font-size: 2rem;
+}
+
+
