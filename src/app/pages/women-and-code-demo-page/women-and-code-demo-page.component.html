@@ -1,0 +1,21 @@
+<p-fieldset legend="Demo - Signal vs primitive variable Comparison">
+    <!--  Here I  will display my regular variable and related functions-->
+    <p-fieldset legend="Regular variable">
+        <h2>Regular value: {{ regularVariable }}</h2>
+        <h2>Regular value multiplied by 3: {{ multiplyRegularValue() }}</h2>
+        <h2>Regular value multiplied by 2: {{ multiplyRegularReturnSignal() }}</h2>
+        <p-button label="Update regular value" severity="success" (onClick)="incrementRegularValue()"></p-button>
+    </p-fieldset>
+
+    <p-fieldset legend="Signal variable">
+        <!--  Here I  will display my signal variable and related functions-->
+        <h2>Signal value: {{ signalVariable() }}</h2>
+        <h2>Signal value multiplied by 3: {{ multiplySignalValue() }}</h2>
+        <h2>Signal value multiplied by 2: {{ multiplySignalReturnSignal() }}</h2>
+        <p-button label="Update signal value" severity="warn" (onClick)="incrementSignalValue()"></p-button>
+    </p-fieldset>
+
+    <!--  Her I will put my children-->
+
+</p-fieldset>
+
