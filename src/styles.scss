@@ -80,4 +80,14 @@
   font-size: 2rem;
 }
 
+.navigation-button > .p-button{
+  background: linear-gradient(135deg, var(--vivid-pink), #ff416c);
+  border: none;
+  height: 5rem;
+  width: 15rem;
+}
+
+.navigation-button > .p-button:hover {
+  background: linear-gradient(135deg, var(--electric-violet), #ff416c); /* Reverse on hover */
+}
 
